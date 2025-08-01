@@ -1,0 +1,12 @@
+create database jobportalnew;
+use jobportalnew;
+CREATE TABLE job (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(100) NOT NULL,
+    company VARCHAR(100) NOT NULL,
+    location VARCHAR(100),
+    description TEXT,
+    type VARCHAR(50)
+);
+
+
